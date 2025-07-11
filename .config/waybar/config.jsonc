@@ -4,7 +4,7 @@
     "spacing": 0,
     "height": 26,
     "modules-left": [
-      "hyprland/workspaces"
+        "hyprland/workspaces"
     ],
     "modules-center": [
       "clock"
@@ -38,7 +38,8 @@
         "2": [],
         "3": [],
         "4": [],
-        "5": []
+        "5": [],
+	"6": [],
       }
     },
     "cpu": {
@@ -49,6 +50,7 @@
     "clock": {
       "format": "{:%A %H:%M}",
       "format-alt": "{:%d %B W%V %Y}",
+      "timezone": "Europe/Minsk",
       "tooltip": false
     },
     "network": {
@@ -111,14 +113,5 @@
         "balanced":     "󰊚",
         "performance":  "󰡴"
       }
-    },
-    "custom/dropbox": {
-      "format": "",
-      "on-click": "nautilus ~/Dropbox",
-      "exec": "dropbox-cli status",
-      "return-type": "text",
-      "interval": 5,
-      "tooltip": true,
-      "tooltip-format": "{}"
     }
 }
