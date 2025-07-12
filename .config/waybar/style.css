@@ -23,7 +23,11 @@
 #network,
 #bluetooth,
 #pulseaudio,
-#clock {
+#clock,
+#language,
+#temperature,
+#memory,
+#battery-bat2 {
   min-width: 12px;
   margin-right: 13px;
 }
