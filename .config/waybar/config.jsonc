@@ -20,6 +20,7 @@
       "battery",
       "battery#bat2",	
       "power-profiles-daemon",
+      "custom/power",
     ],
     "hyprland/workspaces": {
       "on-click": "activate",
@@ -145,5 +146,11 @@
       "format": "  {}",
       "format-en": "EN",
       "format-ru": "RU"
+    },
+    "custom/power": {
+      "format": " ",
+      "tooltip": false,
+      // "tooltip-format": "Power Menu",
+      "on-click": "~/.config/waybar/scripts/power-menu.sh"
     },
 }
